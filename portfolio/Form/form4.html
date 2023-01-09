@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .step{
+            display: inline;
+           
+        }
+       
+        #s1{
+            margin-left: 300px ;
+            box-sizing: border-box;
+            width: 50px;
+            height: 10px;
+            border: 1px solid none;
+            padding: 10px;
+            background-color: rgb(145, 233, 145);
+        }   
+        #s2{
+            box-sizing: border-box;
+            width: 50px;
+            height: 10x;
+            border: 1px solid none;
+            padding: 10px;
+            background-color: rgb(145, 233, 145);
+        }
+        #s3{
+            box-sizing: border-box;
+            width: 50px;
+            height: 10px;
+            border: 1px solid none;
+            padding: 10px;
+            background-color: rgb(92, 130, 235);
+        }
+        .button a{
+            margin-left: 30px   ;
+        }
+       
+
+
+    </style>
+    <title>Page 2</title>
+</head>
+<body>
+    <br>
+    <div class="div">
+
+        <h3 id="s1" class="step">Step 1: Account</h3>
+        <h3 id="s2" class="step">Step 2: Personal Details</h3>
+        <h3 id="s3" class="step">Step 3: Your Review</h3>
+    </div>
+    <br><br><br>
+    <form action="#">
+        <fieldset>
+            <legend>
+                Your Review
+            </legend>
+            <br>
+            <label for="hearing">How did you hear about us? <br>
+                <select name="hearing"> Friends </select>
+            </label>
+            <br>
+            <br>
+            <label for="visting">Would you visit us again? <br>
+                <input type="radio" name="visit"> Yes
+                <input type="radio" name="visit"> No
+                <input type="radio" name="visit"> Maybe
+            </label>
+            <br>
+            <br>
+            <label for="comments">Comments: <br>    
+                <textarea style="margin: 0;" name="comment" id="" cols="30  " rows="4" placeholder="Enter your comments here.."> Comments </textarea>
+            </label> <br>
+            <label for="documents">Documents: <br>
+                <input type="file" name="documents" id="">
+            </label>
+            <br>
+            <br>
+            <input type="checkbox" name="emails" id=""> Sign me up for email updates
+            <br>
+            <br>
+            <br>
+            <div class="button">
+
+                <a href="./form3.html"><img src="./back.png" alt="back" height="40px" width="150px"></a>
+                <a href="./form1.html"><img src="./submit.png" alt="submit" height="40px" width="150px"></a>
+            </div>
+
+        </fieldset>
+    </form>
+
+
+    
+</body>
